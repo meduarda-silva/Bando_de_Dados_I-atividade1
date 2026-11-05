@@ -1,1 +1,1 @@
-# Repositório do exercecio de Banco de Dados I
+# Repositorio de exercicio BD 1

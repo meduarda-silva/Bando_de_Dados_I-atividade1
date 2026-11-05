@@ -31,4 +31,11 @@ CREATE TABLE turmas (
 );
 
 
+-- TESTE criando tabela alunos
+CREATE TABLE alunos(
+    matricula_aluno SERIAL PRIMARY KEY,
+    nome_aluno VARCHAR(80),
+    id_turma INT, -- Declaração da coluna na tabela alunos
+    CONSTRAINT fk_id_turma FOREIGN KEY (id_turma) REFERENCES turmas(id_turma)
+);
 
